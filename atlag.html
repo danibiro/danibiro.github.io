@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Átlagszámoló</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='atlag.js'></script>
+</head>
+<body>
+  <h1>Átlagszámoló</h1>
+  <table>
+    <th>Tantárgy</th>
+    <th>Jegy</th>
+    <th>Súly</th>
+    <tr>
+      <td>Demográfia</td>
+      <td>
+        <input type="number" id="t1" oninput="calculate()" value="0" />
+      </td>
+      <td id="s1">4</td>
+    </tr>
+    <tr>
+      <td>Általános földrajz</td>
+      <td>
+        <input type="number" id="t2" oninput="calculate()" value="0" />
+      </td>
+      <td id="s2">4</td>
+    </tr>
+    <tr>
+      <td>Hidrológia</td>
+      <td>
+        <input type="number" id="t3" oninput="calculate()" value="0" />
+      </td>
+      <td id="s3">5</td>
+    </tr>
+    <tr>
+      <td>Térinfó</td>
+      <td>
+        <input type="number" id="t4" oninput="calculate()" value="0" />
+      </td>
+      <td id="s4">5</td>
+    </tr>
+    <tr>
+      <td>Angol</td>
+      <td>
+        <input type="number" id="t5" oninput="calculate()" value="0" />
+      </td>
+      <td id="s5">3</td>
+    </tr>
+    <tr>
+      <td>Kvantitatív</td>
+      <td>
+        <input type="number" id="t6" oninput="calculate()" value="0" />
+      </td>
+      <td id="s6">4</td>
+    </tr>
+    <tr>
+      <td>Térképészet</td>
+      <td>
+        <input type="number" id="t7" oninput="calculate()" value="0" />
+      </td>
+      <td id="s7">5</td>
+    </tr>
+  </table>
+  <b>Átlag</b> 
+  <p id="atlag"></p>
+</body>
+</html>
